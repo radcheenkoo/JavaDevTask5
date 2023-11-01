@@ -1,4 +1,4 @@
-package org.example.models;
+package org.example.modelsForDatabaseQueryService;
 
 public class YoungestEldestWorkers {
     private String name;

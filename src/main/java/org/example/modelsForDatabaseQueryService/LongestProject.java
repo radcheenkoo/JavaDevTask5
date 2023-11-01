@@ -1,4 +1,4 @@
-package org.example.models;
+package org.example.modelsForDatabaseQueryService;
 
 public class LongestProject {
         private String id;
