@@ -2,8 +2,6 @@ package org.example;
 
 import org.example.sqlFileReader.ReadSqlFile;
 
-import java.io.BufferedReader;
-import java.io.FileReader;
 import java.io.IOException;
 import java.sql.Connection;
 import java.util.ArrayList;

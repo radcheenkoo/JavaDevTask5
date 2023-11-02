@@ -2,9 +2,9 @@ package org.example.modelsForDatabaseQueryService;
 
 public class MaxProjectCountClient {
     private String name;
-    private String projectCount;
+    private int projectCount;
 
-    public MaxProjectCountClient(String name, String projectCount) {
+    public MaxProjectCountClient(String name, int projectCount) {
         this.name = name;
         this.projectCount = projectCount;
     }
@@ -13,7 +13,7 @@ public class MaxProjectCountClient {
         return name;
     }
 
-    public String getProjectCount() {
+    public int getProjectCount() {
         return projectCount;
     }
 }

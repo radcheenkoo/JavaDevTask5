@@ -1,19 +1,21 @@
 package org.example.modelsForDatabaseQueryService;
 
+import java.sql.Date;
+
 public class YoungestEldestWorkers {
     private String name;
-    private String dateOfEmployment;
+    private Date birthday;
 
-    public YoungestEldestWorkers(String name, String dateOfEmployment) {
+    public YoungestEldestWorkers(String name, Date birthday) {
         this.name = name;
-        this.dateOfEmployment = dateOfEmployment;
+        this.birthday = birthday;
     }
 
     public String getName() {
         return name;
     }
 
-    public String getDateOfEmployment() {
-        return dateOfEmployment;
+    public Date getDateOfEmployment() {
+        return birthday;
     }
 }

@@ -1,19 +1,19 @@
 package org.example.modelsForDatabaseQueryService;
 
 public class LongestProject {
-        private String id;
-        private String amountOfMonths;
+        private int id;
+        private int amountOfMonths;
 
-        public LongestProject(String id, String amountOfMonths) {
+        public LongestProject(int id, int amountOfMonths) {
             this.id = id;
             this.amountOfMonths = amountOfMonths;
         }
 
-        public String getId() {
+        public int getId() {
             return id;
         }
 
-        public String getAmountOfMonths() {
+        public int getAmountOfMonths() {
             return amountOfMonths;
         }
 }

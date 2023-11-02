@@ -2,9 +2,9 @@ package org.example.modelsForDatabaseQueryService;
 
 public class MaxSalaryWorker {
     private String name;
-    private String salary;
+    private int salary;
 
-    public MaxSalaryWorker(String name, String salary) {
+    public MaxSalaryWorker(String name, int salary) {
         this.name = name;
         this.salary = salary;
     }
@@ -13,7 +13,7 @@ public class MaxSalaryWorker {
         return name;
     }
 
-    public String getSalary() {
+    public int getSalary() {
         return salary;
     }
 }
